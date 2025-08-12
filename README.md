@@ -11,11 +11,11 @@ A provirus usually refers to a virus integrated into a prokaryotic chromosome as
 ## 2. Workflow of ProBord
 
 - Step1: Preprocessing viral region
-  - 
+  - test
 - Step2: Identifing candidate att
-  -  
+  - test
 - Step3: Comparing and scoring
-  -
+  - test
 
 ![workflow](https://github.com/user-attachments/assets/5025f5ba-82ad-427b-b42b-f6238db98be0)
 
