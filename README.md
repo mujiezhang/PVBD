@@ -8,7 +8,16 @@ A provirus usually refers to a virus integrated into a prokaryotic chromosome as
 
 ![integration](https://github.com/user-attachments/assets/d8c6f70a-2670-401e-8f8a-1b92a2ce154b)
 
-Figure1. Provirus integration process
+## 2. Workflow of ProBord
+
+- Step1: Preprocessing viral region
+ - 
+- Step2: Identifing candidate att
+ -  
+- Step3: Comparing and scoring
+ -
+
+![workflow](https://github.com/user-attachments/assets/5025f5ba-82ad-427b-b42b-f6238db98be0)
 
 # useful emoji 💡🧬🔆✅🎉🚀🚩⌛⚙️🖋️
 
