@@ -22,7 +22,8 @@ A provirus usually refers to a virus integrated into a prokaryotic chromosome as
 - Step3: Comparing and scoring
   - test
 
-![workflow](https://github.com/user-attachments/assets/5025f5ba-82ad-427b-b42b-f6238db98be0)
+![workflow](https://github.com/user-attachments/assets/9cb7005f-0695-4f93-8b55-e4b6428b4d36)
+
 
 # useful emoji 💡🧬🔆✅🎉🚀🚩⌛⚙️🖋️
 
