@@ -27,7 +27,7 @@ A provirus usually refers to a virus integrated into a prokaryotic chromosome as
 # Instructions
 
 ## Dependencies
-- PSOSP is a Python script that relies on:
+- ProBord is a Python script that relies on:
   
 ```
 blastn
