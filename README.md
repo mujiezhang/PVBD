@@ -24,6 +24,17 @@ A provirus usually refers to a virus integrated into a prokaryotic chromosome as
 
 ![workflow](https://github.com/user-attachments/assets/9cb7005f-0695-4f93-8b55-e4b6428b4d36)
 
+# 🖋️ Instructions
+
+## Dependencies
+- PSOSP is a Python script that relies on:
+```
+blastn
+Python3
+biopython
+checkV=1.0.3
+ncbi-genome-download
+```
 
 # useful emoji 💡🧬🔆✅🎉🚀🚩⌛⚙️🖋️
 
