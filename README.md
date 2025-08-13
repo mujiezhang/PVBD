@@ -39,6 +39,13 @@ ncbi-genome-download
 
 ## Installation
 
+## Database preparation
+
+## Input files
+
+## How to run
+
+## Output files
 
 # useful emoji 💡🧬🔆✅🎉🚀🚩⌛⚙️🖋️
 
