@@ -33,7 +33,7 @@ A provirus usually refers to a virus integrated into a prokaryotic chromosome as
 blastn
 Python3
 biopython
-checkV=1.0.3
+checkv=1.0.3
 ncbi-genome-download
 ```
 
