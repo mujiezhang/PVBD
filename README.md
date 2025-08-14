@@ -54,7 +54,7 @@ conda activate probord
 ```
 - Download ProBord from github or Zenodo
   - github: `git clone https://github.com/mujiezhang/ProBord.git; cd ProBord/probord`
-  - Zenodo: `wget `
+  - Zenodo: `wget wget https://zenodo.org/records/16871055/files/ProBord.zip; unzip ProBord.zip; cd ProBord-main/probord`
 
 ## Database preparation
 - Prepare the CheckV database (if needed; otherwise skip):  `checkv download_database ./ `
