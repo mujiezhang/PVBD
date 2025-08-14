@@ -39,7 +39,7 @@ ncbi-genome-download
 
 ## Installation
 
-- install conda and bioconda channels (If already installed, please skip)
+- Install miniconda and add channels (If already installed, please skip)
 ```
 wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
@@ -47,7 +47,7 @@ source ~/.bashrc
 conda config --add channels bioconda
 conda config --add channels conda-forge
 ```
-- install dependencies
+- Install dependencies
 ```
 conda create -n probord checkv=1.0.3 ncbi-genome-download
 git clone https://github.com/mujiezhang/ProBord.git
@@ -55,7 +55,8 @@ conda activate probord
 ```
 
 ## Database preparation
-- prepare the CheckV database (if needed; otherwise skip):  `checkv download_database ./ `
+- Prepare the CheckV database (if needed; otherwise skip):  `checkv download_database ./ `
+- Prepare blastn database for attB detection (**required**):
 ## Input files
 
 ## How to run
