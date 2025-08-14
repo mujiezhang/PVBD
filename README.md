@@ -33,11 +33,11 @@ A provirus usually refers to a virus integrated into a prokaryotic chromosome as
 ## 💡 Workflow of ProBord
 
 - Step1: Preprocessing viral region
-  - ...
+  - CheckV is used to remove host sequence contamination from the provirus and extend 5 kb into the host region, producing a “host–attL–provirus–attR–host” mixed sequence (mix-seq).
 - Step2: Identifing candidate att
-  - ...
+  - Direct repeat pairs (DRPs) are identified using two strategies depending on att length. For long att sequences (≥12 bp), Blastn is used to detect DRPs within the 25 kb regions flanking both ends of the mix-seq. For short att sequences (5–11 bp), DRPs are identified by locating att-hot regions.
 - Step3: Comparing and scoring
-  - ...
+  - Candidate attB sites are aligned against a database and scored; those meeting the scoring threshold are selected to delimit provrial borders.
 
 ![workflow](https://github.com/user-attachments/assets/9cb7005f-0695-4f93-8b55-e4b6428b4d36)
 
