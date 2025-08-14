@@ -61,9 +61,32 @@ conda activate probord
   - If you have numerous proviruses from diverse genera, or if you don't know your provirus host classification, you can download the NCBI nt database (https://ftp.ncbi.nlm.nih.gov/blast/db/) or all bacterial/archaeal genomes from NCBI RefSeq (bacteria: https://ftp.ncbi.nlm.nih.gov/refseq/release/bacteria/, archaea: https://ftp.ncbi.nlm.nih.gov/refseq/release/archaea/), create a blastn database, and then run probord. (This approach consumes substantial storage space and memory, and will significantly increase probord's runtime.)
     Note: We are currently developing algorithms to compress DNA sequences while preserving potential attB sites, aiming to reduce runtime memory consumption.
 
-## Input files
-
 ## How to run
+- Command line options
+```
+Required arguments:
+  -hf <path>, --host_fasta <path>
+                        Host genome/contig file containing provirus (FASTA format)
+  -vf <path>, --virus_information <path>
+                        A tab-delimited file with columns: viral_name, host_contig, start, end
+  -wd <path>, --working_path <path>
+                        Path to the output directory
+  -db <path>, --blastn_db <path>
+                        Path to the BLASTn database for attB detection
+
+Optional arguments:
+  -cv <path>, --checkv_db <path>
+                        Path to the CheckV database
+  -s <int>, --score <int>
+                        Cutoff for attB score (default: 20)
+  -t <int>, --threads <int>
+                        Number of threads to use (default: 8)
+  -k, --keep-temp       Keep temporary files after the run
+
+Information:
+  -h, --help            Show this help message and exit
+  -v, --version         show program's version number and exit
+```
 
 ## Output files
 
