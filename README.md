@@ -5,15 +5,32 @@
 # ProBord: **Pro**virus **Bord**er Delimiter
 ProBord (**Pro**virus **Bord**er Delimiter) is a bioinformatics tool that predicts the precise borders of proviruses by identifying attL/R sites.
 
+## Table of contents ([Chinese Tutorial/中文说明](https://github.com/mujiezhang/PSOSP/blob/main/README-Chinese.md)✨)
+<!-- TOC -->
+- [ProBord: Provirus Border Delimiter](#probord-provirus-border-delimiter)
+- [Introduction](#introduction)
+  - [Provirus integration process](#provirus-integration-process)
+  - [Workflow of ProBord](#workflow-of-probord)
+- [Instructions](#instructions)
+  - [Dependencies](#dependencies)
+  - [**Installation**](#installation)
+  - [**Database preparation**](#database-preparation)
+  - [**How to run**](#how-to-run)
+  - [**Output files**](#output-files)
+- [Citation](#citation)
+- [Contact](#contact)
+
+<!-- /TOC -->
+
 # Introduction
-## 🧬 Provirus integration process
+## Provirus integration process
 
 A provirus usually refers to a virus integrated into a prokaryotic chromosome as a stable genetic element. Before integration, the phage attP site and the host attB site—share core sequence—undergo site-specific recombination catalyzed by integrase (Int), producing attL and attR sites flanking the prophage in the host genome. During excision, attL and attR recombine in reverse, mediated by integrase and excisionase (Xis), restoring attP on the free phage DNA and attB on the host chromosome. Unless otherwise stated, attB, attP, and attL/R refer to their core sequences.
 
 ![integration](https://github.com/user-attachments/assets/7795a4b2-fdef-4b7f-8737-99b6bd4be02d)
 
 
-## 💡 Workflow of ProBord
+## Workflow of ProBord
 
 - Step1: Preprocessing viral region
   - ...
@@ -134,7 +151,7 @@ A detailed overview of `att_prediction.tsv`:
 # Citation
 ......
 
-# 📬 Contact
+# Contact
 ```
 # Mujie Zhang
 # School of Life Sciences & Biotechnology, Shanghai Jiao Tong University
