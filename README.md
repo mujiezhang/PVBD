@@ -49,16 +49,13 @@ conda config --add channels conda-forge
 ```
 - install dependencies
 ```
-conda create -n probord checkv=1.0.3
-checkv download_database ./  # If you don't need CheckV host decontamination, omit this step.
-git clone 
+conda create -n probord checkv=1.0.3 ncbi-genome-download
+git clone https://github.com/mujiezhang/ProBord.git
 conda activate probord
 ```
 
-
-
 ## Database preparation
-
+- prepare the CheckV database (if needed; otherwise skip):  `checkv download_database ./ `
 ## Input files
 
 ## How to run
