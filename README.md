@@ -59,15 +59,8 @@ conda activate probord
 - Prepare blastn database for attB detection (**required**):
   - If your provirus originates from a specific bacterial/archaeal genus, you only need to download bacterial/archaeal genomes and create a blastn database for that genus using the script `prepare_blastn_db.sh`. For example, for the genus "Mannheimia": `bash prepare_blast_db.sh Mannheimia bacteria`.
   - However, downloading large genera like `Escherichia` can be extremely time-consuming since they contain tens of thousands of genomes. Therefore, we have prebuilt databases for NCBI RefSeq (release 228) genera with over 5,000 genomes, including ``;``;``;``. You can download these prebuilt databases using the script `prepare_blastn_db.sh` by specifying the genus and the "prebuild" parameter. Note that downloading these prebuilt databases still requires significant time due to the large genome counts.
-  - If you have numerous proviruses from diverse genera, or if you don't know your provirus host classification, you can download the NCBI nt database (https://ftp.ncbi.nlm.nih.gov/blast/db/) or all bacterial/archaeal genomes from NCBI RefSeq (abcteria: https://ftp.ncbi.nlm.nih.gov/refseq/release/bacteria/, archaea: https://ftp.ncbi.nlm.nih.gov/refseq/release/archaea/), create a blastn database, and then run probord. (This approach consumes substantial storage space and memory, and will significantly increase probord's runtime.)
+  - If you have numerous proviruses from diverse genera, or if you don't know your provirus host classification, you can download the NCBI nt database (https://ftp.ncbi.nlm.nih.gov/blast/db/) or all bacterial/archaeal genomes from NCBI RefSeq (bacteria: https://ftp.ncbi.nlm.nih.gov/refseq/release/bacteria/, archaea: https://ftp.ncbi.nlm.nih.gov/refseq/release/archaea/), create a blastn database, and then run probord. (This approach consumes substantial storage space and memory, and will significantly increase probord's runtime.)
 
-mkdir Mannheimia_db; cd Mannheimia_db
-ncbi-genome-download -F fasta --genera Mannheimia -o Mannheimia --flat-output  -P   -p 4 bacteria
-gunzip Mannheimia/*.gz
-cat Mannheimia/*.fna > Mannheimia.fna
-makeblastdb -in Mannheimia.fna -dbtype nucl -out Mannheimia
-rm -rf Mannheimia;rm Mannheimia.fna
-```
 ## Input files
 
 ## How to run
