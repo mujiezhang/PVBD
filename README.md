@@ -54,21 +54,22 @@ conda activate probord
 ```
 - download Probord from github or Zenodo
   - github
-    ```
-    git clone https://github.com/mujiezhang/ProBord.git
-    cd ProBord/probord
-    ```
+```
+git clone https://github.com/mujiezhang/ProBord.git
+cd ProBord/probord
+```
   - Zenodo
-    ```
-    wget 
-    ```
+```
+wget 
+```
 
 ## Database preparation
 - Prepare the CheckV database (if needed; otherwise skip):  `checkv download_database ./ `
 - Prepare blastn database for attB detection (**required**):
   - (**✅recommended**) If your provirus originates from a specific bacterial/archaeal genus, you only need to download bacterial/archaeal genomes and create a blastn database for that genus using the script `prepare_blastn_db.sh`. For example, for the genus "Mannheimia": `bash prepare_blast_db.sh Mannheimia bacteria`.
   - If you have numerous proviruses from diverse genera, or if you don't know your provirus host classification, you can download the NCBI nt database (https://ftp.ncbi.nlm.nih.gov/blast/db/) or all bacterial/archaeal genomes from NCBI RefSeq (bacteria: https://ftp.ncbi.nlm.nih.gov/refseq/release/bacteria/, archaea: https://ftp.ncbi.nlm.nih.gov/refseq/release/archaea/), create a blastn database, and then run probord. (This approach consumes substantial storage space and memory, and will significantly increase probord's runtime.)
-    Note: We are currently developing algorithms to compress DNA sequences while preserving potential attB sites, aiming to reduce runtime memory consumption.
+    
+    **Note**: We are currently developing algorithms to compress DNA sequences while preserving potential attB sites, aiming to reduce runtime memory consumption.
 
 ## How to run
 - Command line options
