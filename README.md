@@ -37,7 +37,7 @@ A provirus usually refers to a virus integrated into a prokaryotic chromosome as
 - Step2: Identifing candidate att
   - Direct repeat pairs (DRPs) are identified using two strategies depending on att length. For long att sequences (≥12 bp), Blastn is used to detect DRPs within the 25 kb regions flanking both ends of the mix-seq. For short att sequences (5–11 bp), DRPs are identified by locating att-hot regions.
 - Step3: Comparing and scoring
-  - Candidate attB sites are aligned against a database and scored; those meeting the scoring threshold are selected to delimit provrial borders.
+  - Candidate attB sites are aligned against a database and scored; those meeting the scoring threshold are selected to delimit proviral borders.
 
 ![workflow](https://github.com/user-attachments/assets/9cb7005f-0695-4f93-8b55-e4b6428b4d36)
 
