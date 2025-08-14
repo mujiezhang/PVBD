@@ -2,10 +2,10 @@
   <img src="https://github.com/user-attachments/assets/1e6a744b-1286-49a9-89b0-fe815ea30a35" alt="ProBord" width="450" />
 </div>
 
-# ProBord: **Pro**virus **Bord**er Delimiter
+# ProBord: **Pro**virus **Bord**er Delimiter ✨
 ProBord (**Pro**virus **Bord**er Delimiter) is a bioinformatics tool that predicts the precise borders of proviruses by identifying attL/R sites.
 
-## Table of contents ([Chinese Tutorial/中文说明](https://github.com/mujiezhang/PSOSP/blob/main/README-Chinese.md)✨)
+## Table of contents
 <!-- TOC -->
 - [ProBord: Provirus Border Delimiter](#probord-provirus-border-delimiter)
 - [Introduction](#introduction)
@@ -18,7 +18,7 @@ ProBord (**Pro**virus **Bord**er Delimiter) is a bioinformatics tool that predic
   - [**How to run**](#how-to-run)
   - [**Output files**](#output-files)
 - [Citation](#citation)
-- [Contact](#contact)
+- [Contact](#-contact)
 
 <!-- /TOC -->
 
@@ -151,7 +151,7 @@ A detailed overview of `att_prediction.tsv`:
 # Citation
 ......
 
-# Contact
+# 📬 Contact
 ```
 # Mujie Zhang
 # School of Life Sciences & Biotechnology, Shanghai Jiao Tong University
