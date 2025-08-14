@@ -129,7 +129,7 @@ A detailed overview of `att_prediction.tsv`:
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | Mannheimia phage vB_MhM_3927AP2 | NZ_CP017531.1 | 829886 | 863606 | Mannheimia--phage--vB_MhM_3927AP2__NZ_CP017531.1__829886__863606_829886-829891-863601-863606-100-100-6 | 829886 | 829891 | 863601 | 863606 | 6 | AATACT | AATACT | 100.0 |
 
-# useful emoji 💡🧬🔆✅🎉🚀🚩⌛⚙️🖋️
+
 
 # Citation
 ......
