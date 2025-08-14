@@ -31,13 +31,31 @@ A provirus usually refers to a virus integrated into a prokaryotic chromosome as
   
 ```
 blastn
-Python3
+python3
 biopython
 checkv=1.0.3
 ncbi-genome-download
 ```
 
 ## Installation
+
+- install conda and bioconda channels (If already installed, please skip)
+```
+wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+source ~/.bashrc
+conda config --add channels bioconda
+conda config --add channels conda-forge
+```
+- install dependencies
+```
+conda create -n probord checkv=1.0.3
+checkv download_database ./  # If you don't need CheckV host decontamination, omit this step.
+git clone 
+conda activate probord
+```
+
+
 
 ## Database preparation
 
