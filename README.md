@@ -52,16 +52,9 @@ conda config --add channels conda-forge
 conda create -n probord checkv=1.0.3 ncbi-genome-download
 conda activate probord
 ```
-- download Probord from github or Zenodo
-  - github
-```
-git clone https://github.com/mujiezhang/ProBord.git
-cd ProBord/probord
-```
-  - Zenodo
-```
-wget 
-```
+- Download ProBord from github or Zenodo
+  - github: `git clone https://github.com/mujiezhang/ProBord.git; cd ProBord/probord`
+  - Zenodo: `wget `
 
 ## Database preparation
 - Prepare the CheckV database (if needed; otherwise skip):  `checkv download_database ./ `
