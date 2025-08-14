@@ -50,9 +50,18 @@ conda config --add channels conda-forge
 - Install dependencies
 ```
 conda create -n probord checkv=1.0.3 ncbi-genome-download
-git clone https://github.com/mujiezhang/ProBord.git
 conda activate probord
 ```
+- download Probord from github or Zenodo
+  - github
+    ```
+    git clone https://github.com/mujiezhang/ProBord.git
+    cd ProBord/probord
+    ```
+  - Zenodo
+    ```
+    wget 
+    ```
 
 ## Database preparation
 - Prepare the CheckV database (if needed; otherwise skip):  `checkv download_database ./ `
@@ -87,6 +96,7 @@ Information:
   -h, --help            Show this help message and exit
   -v, --version         show program's version number and exit
 ```
+- 
 
 ## Output files
 
