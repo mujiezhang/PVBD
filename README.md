@@ -7,7 +7,7 @@ ProBord (**Pro**virus **Bord**er Delimiter) is a bioinformatics tool that predic
 
 ## Table of contents
 <!-- TOC -->
-- [ProBord: Provirus Border Delimiter](#probord-provirus-border-delimiter)
+- [ProBord: Provirus Border Delimiter](#probord-provirus-border-delimiter-)
 - [Introduction](#introduction)
   - [Provirus integration process](#-provirus-integration-process)
   - [Workflow of ProBord](#-workflow-of-probord)
